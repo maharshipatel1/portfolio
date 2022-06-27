@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Maharshi Patel</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://google.com" class="link"
+          >MP.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#education">Education</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#work">Work Experience</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Maharshi Patel.</span></h1>
+        <h2 class="about__role">An entusiast computer scientist and a graduate student.</h2>
+        <p class="about__desc">
+          I am a graduate computer science student at Rutgers University, exploring AI, Machine Learning
+          and Algorithms. I like to build applications and learn more about the future advancements in
+          Computer Science.
+        </p>
+
+        <div class="about__contact center">
+          <a
+            href="https://github.com/maharshipatel1"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/maharshi-patel-6ba5511b1/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <section class="section education" id="education">
+        <h2 class="section__title">Education</h2>
+
+        <div class="education__grid">
+          <div class="education">
+            <h3>Rutgers University-New Brunswick</h3>
+            <p class="education__description">
+              Master's Degree
+            </p>
+            <ul class="education__year">
+              <li class="education__year-item">Jun 2022 - Dec 2023</li>
+            </ul>
+          </div>
+
+          <div class="education">
+            <h3>Rutgers University-New Brunswick</h3>
+            <p class="education__description">
+              Bachellor's Degree
+            </p>
+            <ul class="education__year">
+              <li class="education__year-item">Sep 2020 - May 2022</li>
+            </ul>
+          </div>
+          
+          <div class="education">
+            <h3>Middlesex College</h3>
+            <p class="education__description">
+              Associate's Degree
+            </p>
+            <ul class="education__year">
+              <li class="education__year-item">Sep 2018 - Aug 2020</li>
+            </ul>
+          </div>
+        </div>  
+      </section>
+
+      <!-- Work -->
+      <section class="section work" id="work">
+        <h2 class="section__title">Work Experience</h2>
+
+        <div class="work__grid">
+          <div class="work">
+            <h3>IMM eSign</h3>
+            <p class="work__description">
+              Hello
+            </p>
+            <ul class="work__year">
+              <li class="work__year-item">Jun 2022 - Aug 2022</li>
+            </ul>
+          </div>
+
+          <div class="work">
+            <h3>IMM eSign</h3>
+            <p class="work__description">
+              Hello
+            </p>
+            <ul class="work__year">
+              <li class="work__year-item">May 2021 - Aug 2021</li>
+            </ul>
+          </div>
+          
+          <div class="work">
+            <h3>Middlesex College</h3>
+            <p class="work__description">
+              Hello
+            </p>
+            <ul class="work__year">
+              <li class="work__year-item">Sep 2018 - Aug 2020</li>
+            </ul>
+          </div>
+        </div>  
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Recipe Book</h3>
+            <p class="project__description">
+              An android application that suggest recipes from the internet to the user
+              with the ingredients the user has available.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">Google Firebase</li>
+              <li class="project__stack-item">Android</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Auction Site</h3>
+            <p class="project__description">
+              An auction site which allows sellers to place an item for sell and buyers
+              to place a bid on any items. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JSP</li>
+              <li class="project__stack-item">JS</li>
+              <li class="project__stack-item">MySQL</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Programmer's Calculator</h3>
+            <p class="project__description">
+              An android calculator that converts number into different bases and
+              performs binary operations.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Java</li>
+              <li class="project__stack-item">Android</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">C#</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Android</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <li class="skills__list-item btn btn--plain">SQL Server</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:skyapps100@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/maharshipatel1"
+        class="link footer__link"
+      >
+        Created By Maharshi Patel
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
